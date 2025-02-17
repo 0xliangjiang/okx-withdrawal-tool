@@ -55,14 +55,14 @@ WITHDRAWAL_CONFIG = {
 
 3. Prepare address file:
 - Create a text file with one address per line
-- Default path: `data/aaa.txt`
+- Default path: `wallet.txt`
 - Addresses can be with or without '0x' prefix
 
 ## Usage
 
 1. Run the script:
 ```bash
-python wallet/okx_wallet.py
+python okx_withdrawal.py
 ```
 
 2. Available options:
@@ -135,7 +135,7 @@ pip install python-okx tabulate
 
 ## 配置说明
 
-1. 在 `wallet/okx_wallet.py` 中更新API凭证：
+1. 在 `okx_withdrawal.py` 中更新API凭证：
 ```python
 apikey = "你的API密钥"
 secretkey = "你的Secret密钥"
@@ -154,14 +154,14 @@ WITHDRAWAL_CONFIG = {
 
 3. 准备地址文件：
 - 创建文本文件，每行一个地址
-- 默认路径：`data/aaa.txt`
+- 默认路径：`wallet.txt`
 - 地址可以带或不带'0x'前缀
 
 ## 使用方法
 
 1. 运行脚本：
 ```bash
-python wallet/okx_wallet.py
+python okx_withdrawal.py
 ```
 
 2. 可用选项：
